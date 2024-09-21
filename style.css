@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border: solid 5px brown;
+    border-radius: 5px;
+    align-items: stretch;
+    background-color: bisque;
+}
+
+#new-book {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div{
+    margin: 10px;
+}
+
+
+.card p {
+    background-color:bisque;
+    margin: 0;
+}
+.card p:first-child {
+    font-weight: bold;
+}
