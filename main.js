@@ -58,12 +58,17 @@ function displayBooks() {
         removeBtn.textContent = 'Remove';
         removeBtn.classList.add('remove');
         removeBtn.setAttribute('id', 'book-' + index);
-        card.appendChild(removeBtn);
         let readBtn = document.createElement('button');
         readBtn.textContent = 'Toggle read status';
         readBtn.classList.add('read');
         readBtn.setAttribute('id', 'read-' + index);
-        card.append(readBtn);
+        // card.appendChild(removeBtn);
+        // card.append(readBtn);
+        let btnContainer = document.createElement('div');
+        btnContainer.appendChild(removeBtn);
+        btnContainer.appendChild(readBtn);
+        btnContainer.classList.add('btn-container');
+        card.appendChild(btnContainer);
         container.appendChild(card);
         index++;
     }

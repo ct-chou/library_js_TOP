@@ -15,6 +15,20 @@ h1 {
     padding: 20px;
 }
 
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.read {
+    margin: 10px;
+}
+
+.remove {
+    margin: 10px;
+}
+
 .card {
     width: 200px;
     margin: 10px;
